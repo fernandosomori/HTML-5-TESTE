@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Job</title>
+
+    <Style>
+        body {background-color: rgb(152, 226, 201);}
+        h1 {color: rgb(67, 87, 237); font: normal 22pt arial;}
+        p {color: rgb(236, 106, 106);}
+    </Style>
+    
+    </head>
+   
+    <body>
+    <h1>Hello World</h1> <!--h1 significa titulo de nivel 1-->
+    <p>This is HTML</p> <!--p significa paragrafo-->
+    </body>
+    
+    <script>
+        alert('Welcome') // mensagem de entrada
+        confirm('You like JS?') //pedido de confirmar
+        var nome = window.prompt('Whats your name') //pergunta nome
+        alert(`Que bom ter voce aqui, ${nome}`)
+
+        var n1 = Number.parseFloat(window.prompt('Digite um numero: '))
+        var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))
+        //"Number.parseInt" serve para transformar string em number
+        //"Number.parseFloat" serve para transformar string em number com ','
+        //Somente "Number" funciona para os dois
+        var s = n1 + n2
+        window.alert(`Soma dos valores igual a ${s}`)
+        //"String()" para transformar em String
+        //"n.toString()" para transformar em String / Outra forma de fazer a mesma coisa
+        </script>
+</html>
